@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e601278c78dc4459c9ddbd6a7878a6, type: 3}
+  m_Name: AWM
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponData
+  displayName: AWM
+  slot: 0
+  modelPrefab: {fileID: 4827807236062294230, guid: e97ef69751402004997ef1a961b4bcb4, type: 3}
+  modelPositionOffset: {x: 0, y: -1.7, z: 1.4}
+  modelRotationOffset: {x: 0, y: 180, z: 0}
+  modelScale: {x: 1.3, y: 1.3, z: 1.3}
+  muzzleOffset: {x: 0, y: 0, z: 0}
+  fireType: 1
+  automatic: 0
+  damage: 100
+  fireInterval: 1.5
+  spreadAngle: 0
+  projectilePrefab: {fileID: 0}
+  projectileSpeed: 0
+  range: 500
+  magazineSize: 5
+  reloadTime: 3.5
+  spinUpTime: 0
+  zoomFov: 25
